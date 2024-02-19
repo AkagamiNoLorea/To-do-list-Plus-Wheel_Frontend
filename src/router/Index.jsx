@@ -5,12 +5,20 @@ import DeleteTask from "../components/tasks/DeleteTask";
 
 export const router = createBrowserRouter([
     {
-        path: "/create",
+        path: "/createtask",
         element: <SaveTask/>
     },
     {
         path: "/delete/:taskId",
         element: <DeleteTask/>
+    },
+    {
+        path: "/localities",
+        element: <ShowLocalities/>
+    },
+    {
+        path: "/createtask",
+        element: <SaveLocality/>
     },
     {
         path: "/",
