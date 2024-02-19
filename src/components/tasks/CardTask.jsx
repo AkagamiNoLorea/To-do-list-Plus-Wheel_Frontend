@@ -14,7 +14,7 @@ export default function CardTask (props) {
                 <p>{task.urgency}</p>
             </div>
             <div className="buttons">
-                <button onClick={() => props.deleteTask(task) }> Eliminar </button>
+                <button onClick={() => props.deleteTask(task) }> Delete </button>
             </div>
         </div>
         </>

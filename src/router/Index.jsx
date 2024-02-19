@@ -2,6 +2,9 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import SaveTask from "../components/tasks/SaveTask";
 import DeleteTask from "../components/tasks/DeleteTask";
+import SaveLocality from "../components/localities/SaveLocality";
+import Localities from "../pages/Localities";
+import Wheel from "../pages/Wheel";
 
 export const router = createBrowserRouter([
     {
@@ -13,11 +16,19 @@ export const router = createBrowserRouter([
         element: <DeleteTask/>
     },
     {
-        path: "/localities",
-        element: <ShowLocalities/>
+        path: "/deadline",
+        element: <Deadline/>
     },
     {
-        path: "/createtask",
+        path: "/wheel",
+        element: <Wheel/>
+    },
+    {
+        path: "/localities",
+        element: <Localities/>
+    },
+    {
+        path: "/createlocality",
         element: <SaveLocality/>
     },
     {

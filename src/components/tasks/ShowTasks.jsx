@@ -29,7 +29,7 @@ const ShowTasks = () => {
 
   const cards = tasks.map((task) => <CardTask 
                                                         key = {task.id} 
-                                                        character = {task} 
+                                                        task = {task} 
                                                         deleteTask = { handleDeleteTask }
                                                       /> );
   

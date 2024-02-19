@@ -1,6 +1,7 @@
 
 import { NavLink } from "react-router-dom"
-import ShowTasks from "../components/ShowCharacters";
+import ShowTasks from "../components/tasks/ShowTasks";
+
 
 const Home = () => {
   return (
