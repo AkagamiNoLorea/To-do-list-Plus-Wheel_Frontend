@@ -1,9 +1,6 @@
-import React, { Component } from 'react'
-
 import WheelComponent from 'react-wheel-of-prizes'
-import 'react-wheel-of-prizes/dist/index.css'
 
-const App = () => {
+const Wheel = () => {
   const segments = [
     'better luck next time',
     'won 70',
@@ -44,3 +41,5 @@ const App = () => {
     />
   )
 }
+
+export default Wheel;

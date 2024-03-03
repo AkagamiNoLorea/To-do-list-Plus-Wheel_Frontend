@@ -2,9 +2,10 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import SaveTask from "../components/tasks/SaveTask";
 import DeleteTask from "../components/tasks/DeleteTask";
-import SaveLocality from "../components/localities/SaveLocality";
+import SaveLocality from "../components/settings/SaveLocality";
 import Localities from "../pages/Localities";
-import Wheel from "../pages/Wheel";
+import Wheel from "../components/wheel/Wheel";
+import Deadline from "../pages/Deadline";
 
 export const router = createBrowserRouter([
     {
